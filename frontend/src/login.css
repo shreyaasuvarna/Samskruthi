@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-card {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #333;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  margin-bottom: 12px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
+  outline: none;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: #888;
+  font-size: 16px;
+}
+
+.login-button {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background: linear-gradient(135deg, #5a67d8, #6b46c1);
+  transform: translateY(-2px);
+}
+
+
+.signup-text {
+  font-size: 13px;
+  color: #555;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #6a11cb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-text a:hover {
+  color: #4719b2;
+}

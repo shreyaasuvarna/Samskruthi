@@ -1,0 +1,18 @@
+
+/* Minimal, consistent signup CSS */
+body { font-family: "Poppins", sans-serif; }
+
+.signup-container { display:flex; align-items:center; justify-content:center; padding:24px; }
+.signup-card {
+  width:360px; max-width:92%; background:#fff; padding:28px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+.signup-card h2{ margin:0 0 6px; font-size:20px; color:#111; }
+.subtitle{ color:#666; margin-bottom:12px; }
+form{ display:flex; flex-direction:column; gap:10px; }
+label{ font-size:13px; color:#333; }
+input, select{ padding:10px; border-radius:8px; border:1px solid #e2e8f0; }
+input:focus, select:focus{ outline:none; box-shadow:0 0 0 4px rgba(99,102,241,0.08); border-color:#6366f1 }
+.signup-button{ background:#6366f1; color:#fff; border:none; padding:10px; border-radius:8px; cursor:pointer }
+.signup-text{ font-size:13px; text-align:center; color:#555; margin-top:8px }
+
+@media (max-width:520px){ .signup-card{ padding:20px } }

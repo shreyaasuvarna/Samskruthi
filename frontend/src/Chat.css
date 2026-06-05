@@ -1,0 +1,160 @@
+/* 🌟 CHAT LAYOUT (same as student dashboard) */
+.chat-container {
+  display: flex;
+  width: 1000px;
+  height: 350px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+/* LEFT CHAT LIST */
+.chat-list {
+  width: 28%;
+  border-right: 1px solid #e5e7eb;
+  padding: 20px;
+  background: #f9fafb;
+}
+
+.chat-list input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 12px;
+}
+
+.chat-list button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.chat-item {
+  background: #eef2ff;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #e0e7ff;
+}
+
+.chat-item:hover {
+  background: #e0e7ff;
+}
+
+.chat-item.selected {
+  background: #dcdafe;
+  border-color: #c7d2fe;
+}
+
+.chat-item .teacher-email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* RIGHT CHAT WINDOW */
+.chat-window {
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.chat-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.chat-header .status {
+  font-size: 0.9rem;
+  margin-top: 3px;
+  color: #34d399;
+}
+
+/* MESSAGE LIST */
+.message-list {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.message-item {
+  max-width: 65%;
+  padding: 12px 16px;
+  border-radius: 18px;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  display: inline-block;
+}
+
+/* SENT BY STUDENT/TEACHER (RIGHT SIDE) */
+.message-item.sent {
+  background: #4f46e5;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+  border-bottom-right-radius: 4px;
+}
+
+/* RECEIVED (LEFT SIDE) */
+.message-item.received {
+  background: #f3f4f6;
+  color: #111827;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+/* Timestamp */
+.timestamp {
+  margin-top: 6px;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+/* MESSAGE INPUT */
+.message-form {
+  display: flex;
+  padding: 16px;
+  border-top: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.message-form input {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+}
+
+.message-form button {
+  padding: 12px 20px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* NO CHAT SELECTED SCREEN */
+.no-chat-selected {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #6b7280;
+}
