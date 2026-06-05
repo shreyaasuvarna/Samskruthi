@@ -1,25 +1,25 @@
 # SAMSKRUTHI an Educational Teaching Platform
 A full-stack web application that connects students and teachers, featuring AI-powered doubt resolution, real-time chat, and role-based dashboards.
 
-# Tech Stack
-Frontend : React 19, React Router v7, Axios
-Backend  : Node.js, Express.js
-Database : MongoDB, Mongoose
-Auth     : JWT, bcrypt
-AI       : Google Gemini 2.0 Flash
+### Tech Stack
+Frontend : React 19, React Router v7, Axios\
+Backend  : Node.js, Express.js\
+Database : MongoDB, Mongoose\
+Auth     : JWT, bcrypt\
+AI       : Google Gemini 2.0 Flash\
 
-# Features
+### Features
 
-Authentication         — Signup/login for Students and Teachers with JWT-based session management
-Role-based Dashboards  — Separate views and permissions for students and teachers
-Doubt Management       — Students post doubts; AI instantly generates a reply in the background; teachers can review and accept
-Chat System            — Messaging between students and teachers, linked to doubts
-TutorBot               — Floating AI chatbot available on all pages, powered by Gemini with conversation history
-Study Plans            — AI-generated study recommendations based on doubt patterns
+Authentication         — Signup/login for Students and Teachers with JWT-based session management\
+Role-based Dashboards  — Separate views and permissions for students and teachers\
+Doubt Management       — Students post doubts; AI instantly generates a reply in the background; teachers can review and accept\
+Chat System            — Messaging between students and teachers, linked to doubts\
+TutorBot               — Floating AI chatbot available on all pages, powered by Gemini with conversation history\
+Study Plans            — AI-generated study recommendations based on doubt patterns\
 
 
 
-# Project Structure
+### Project Structure
 
 ```
 ETPproject/
